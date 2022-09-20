@@ -11,7 +11,7 @@ app.use(express.static(publicDirectoryPath))
 app.get('', (req, res) => {
     res.render('index')
 })
-app.listen(PORT, ()=> {
+app.listen(port, ()=> {
     console.log('http://localhost:' + port + '/')
 })
 
